@@ -1,0 +1,10 @@
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX mooc: <http://w3id.org/laas-iot/mooc#>
+PREFIX ssn: <http://www.w3.org/ns/ssn/>
+
+SELECT ?sensor
+WHERE {
+	?sensor sosa:observes ?property.
+	?property ssn:isPropertyOf mooc:Bedroom.
+}
