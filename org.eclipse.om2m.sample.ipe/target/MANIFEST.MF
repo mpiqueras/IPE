@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: org.eclipse.om2m.sample.ipe
 Bundle-Name: IPE
-Bundle-Version: 1.0.0.20180430-1002
+Bundle-Version: 1.0.0.20180502-2024
 Require-Bundle: org.eclipse.om2m.commons;bundle-version="1.1.0"
 Bundle-ManifestVersion: 2
 Bundle-Activator: org.eclipse.om2m.sample.ipe.Activator
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
 Import-Package: org.apache.commons.logging,org.eclipse.om2m.core.servi
  ce,org.eclipse.om2m.interworking.service,org.osgi.framework;version="

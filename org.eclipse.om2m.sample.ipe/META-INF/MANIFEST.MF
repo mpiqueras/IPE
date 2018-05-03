@@ -4,7 +4,7 @@ Bundle-Name: IPE
 Bundle-SymbolicName: org.eclipse.om2m.sample.ipe
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: org.eclipse.om2m.sample.ipe.Activator
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Import-Package: org.apache.commons.logging,
  org.eclipse.om2m.core.service,
  org.eclipse.om2m.interworking.service,
